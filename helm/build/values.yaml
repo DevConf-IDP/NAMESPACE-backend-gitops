@@ -1,0 +1,15 @@
+app:
+  name: poi-backend-app
+  namespace: DevConf-IDP
+  cluster: .apps.summit23.0x74.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/DevConf-IDP/NAMESPACE-backend
+  org: DevConf-IDP
+  name: NAMESPACE-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: NAMESPACE/poi-backend-app
+  tag: latest
